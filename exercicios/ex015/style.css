@@ -1,0 +1,15 @@
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: darkgreen;
+    background-color: aquamarine;
+}
+h2{
+    color:rgb(99, 203, 115)}
+p{
+    text-align: justify;
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-color: #0094c695;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.10em
+}
+
+.titulo{
+    background-color: #000022;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.basico{
+    color: rgb(0, 250, 0) ;
+}
+
+.intermediario{
+    color: rgb(255, 255, 0);
+}
+
+.avançado{
+    color: rgb(255, 0, 0);
+}
