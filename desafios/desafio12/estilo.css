@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+:root{
+    --fonte-titulo:'Passion One', cursive;
+    --fonte-texto:'Sriracha', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    background-color: black;
+    color:white;
+    height: 250px;
+    padding-top: 25px;
+}
+
+header h1{
+    font-family: var(--fonte-titulo);
+    color: white;
+    font-size: 130px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+}
+
+header h2{
+    font-family: arial;
+    text-align: center;
+    font-size: 1em;
+}
+
+h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 a:hover{
+    text-decoration: underline red;
+}
+
+
+#caixa01{
+    padding-left: 30px;
+    padding-top: 25px;
+    background-color: white;
+    height: 750px;
+    width: 100%;
+}
+
+#texto01{
+    font-family: var(--fonte-texto);
+    font-size: 3.2em;
+    line-height: 50px;
+}
+
+#caixa02{
+    background-image: url('imagens/background001.jpg');
+    background-attachment: fixed;
+    height: 700px;
+    width: 100%;
+    background-position: center center;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+#texto02{
+    background-color: rgba(0, 0, 0, 0.543);
+    width: 550px;
+    color: white;
+    font-family: var(--fonte-texto);
+    font-size: 2.8em;
+    height: 650px;
+    line-height: 45px;
+
+}
