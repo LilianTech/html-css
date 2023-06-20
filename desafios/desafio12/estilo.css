@@ -11,6 +11,7 @@
 }
 
 
+
 header{
     background-color: black;
     color:white;
@@ -41,6 +42,8 @@ h2 a {
 h2 a:hover{
     text-decoration: underline red;
 }
+
+
 
 
 #caixa01{
@@ -76,4 +79,67 @@ h2 a:hover{
     height: 650px;
     line-height: 45px;
 
+}
+
+#caixa03{
+    background-color: white;
+    height: 700px;
+    width: 100%;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+#texto03{
+    font-family: var(--fonte-texto);
+    color: black;
+    font-size: 2.8em;
+    line-height: 45px;
+    
+}
+
+#caixa04{
+    background-image: url('imagens/background002.jpg');
+    height: 700px;
+    width: 100%;
+    padding-left: 25px;
+    padding-top: 25px;
+    margin-top: 600px;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#texto04{
+    background-color: rgba(0, 0, 0, 0.459);
+    font-family: var(--fonte-texto);
+    width: 620px;
+    font-size: 2.8em;
+    color: white;
+    line-height: 45px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+#caixa05{
+    background-color: white;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+
+#texto05{
+    color: black;
+    font-family: var(--fonte-texto);
+    font-size: 2.8em;
+    line-height: 42px;
+}
+
+footer{
+    background-color: black;
+    
+}
+
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
 }
